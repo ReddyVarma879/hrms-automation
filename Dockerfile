@@ -17,7 +17,7 @@ RUN npm install -g @angular/cli@15.0.0
 RUN npm install
 
 # Expose the port your app runs on
-EXPOSE 4000
+EXPOSE 4200
 
 # Start the application
 CMD ["ng", "serve", "--host", "0.0.0.0"]
